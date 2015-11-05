@@ -7,8 +7,9 @@ def has_no_e(line="")
 		return False
 print("Question b")
 reader=open('gadsby_stripped.txt','r')
-while reader.readline():
-	if has_no_e(reader.readline())==False:
-		print(readline() + " (this line has an e)")
-	else:
-		print(readline() + " (this line has no e)")
+
+if has_no_e(reader.read())==False:
+	print("This file has an e)")
+else:
+	print("This file has no e")
+		
