@@ -1,6 +1,12 @@
 Alex Ly
 100548033
 
+The files contained in this folder are:
+pi_approx.ipynb for question 1
+medal_pie_chart.ipynb for question 2
+average_temperatures.ipynb for question 3
+xy_plot for question 4
+
 Question 1:
 I used a function for each rho, tau and mu
 In each function, there is a for loop that iterates from 0 to the number passed into the function
