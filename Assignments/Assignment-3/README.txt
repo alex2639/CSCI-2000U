@@ -17,7 +17,9 @@ Question 2:
 I represented each country's medal count as a fraction of the total medals of all countries and displayed these values onto a pie chart
 
 Question 3
-
+I read each .dat file and stored each data file in an array
+I used these values to plot them separately (by city) onto a single graph
+I then changed the x-axis label to each month and added a legend to identify which city is what colour
 
 Question 4:
 
