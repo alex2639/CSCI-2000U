@@ -22,4 +22,8 @@ I used these values to plot them separately (by city) onto a single graph
 I then changed the x-axis label to each month and added a legend to identify which city is what colour
 
 Question 4:
+I used the 1st row of the .dat file as the x-values and the 2nd row as the y-values
+I plotted these values onto a scatter plot
+I tried to implement the logical indexing to plot the blue and green areas but it resulted in errors (commented out)
+I used a for and if statement to display the blue and green areas
 
