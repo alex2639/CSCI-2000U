@@ -12,7 +12,7 @@ tail -n +2 classlist.csv
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-tail -n +2 classlist.csv | 
+tail -n +2 classlist.csv | count -l 
 
 130 students
 
@@ -36,7 +36,7 @@ Bottom: Zenia Mowrer
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-sort -d -2 classlist.csv | 
+sort -d -2 classlist.csv | uniq --skip-chars=10 
 
 
 
@@ -45,3 +45,5 @@ sort -d -2 classlist.csv |
 # the student number and the first character of the first name to make
 # a four-character identifier for each student.
 # Enter the relevant Unix command(s) used below.
+
+uniq --skip-chars=6 | --check-chars=4
